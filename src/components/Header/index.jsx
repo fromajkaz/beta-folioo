@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 
 
-export default function index() {
+export default function Index() {
 
     const [isHovered, setIsHovered] = useState(false);
     const { x, y } = useMousePosition();
