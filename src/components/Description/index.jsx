@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
 
-export default function index() {
+export default function Index() {
 
     const phrase = "I'm a web developer with a focus on the React JS, but still exploring other technologies and frameworks that catch my interest! If you're looking for a developer to add to your team, I'd love to hear from you!";
     const description = useRef(null);
